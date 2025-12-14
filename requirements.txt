@@ -1,0 +1,8 @@
+torch==1.13.1
+torchvision==0.14.1
+numpy==1.26.4
+opencv-python
+pillow
+flask
+requests
+flask_cors
