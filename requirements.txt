@@ -1,11 +1,11 @@
+--index-url https://download.pytorch.org/whl/cpu
+
 flask
 flask-cors
+Pillow
 requests
-pillow
 numpy==1.26.4
-
-torch==2.5.1
-torchvision==0.24.1
-
+torch==1.13.1
+torchvision==0.14.1
 opencv-python-headless
 gunicorn
