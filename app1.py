@@ -128,6 +128,13 @@ def preprocess_for_model(img_pil):
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
+@app.route("/health", methods=["GET"])
+def health_check():
+    return jsonify({
+        "status": "ok",
+        "message": "Crop classification backend is running 🚀"
+    })
+
 @app.route("/predict", methods=["POST"])
 def predict():
     data = request.get_json()
