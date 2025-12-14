@@ -1,8 +1,11 @@
-torch==2.5.1
-torchvision==0.14.1
-numpy==1.26.4
-opencv-python
-pillow
 flask
+flask-cors
 requests
-flask_cors
+pillow
+numpy==1.26.4
+
+torch==2.5.1
+torchvision==0.24.1
+
+opencv-python-headless
+gunicorn
